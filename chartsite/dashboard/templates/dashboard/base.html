@@ -1,0 +1,19 @@
+
+<head>
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.css" type="text/css" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static "dashboard/style.css" %}" type="text/css" />
+    <script type="text/javascript" src="{% static "dashboard/libs/bokeh-1.4.0.min.js" %}"></script>
+</head>
+
+<header>
+    <div style="height:30px; background-color:grey">
+        <a href="/dashboard/">Главная</a>
+        <a href="/dashboard/counts/">Численности</a>
+        <a href="/dashboard/risk/">Риск</a>
+    </div>
+</header>
+
+{% block content %}
+
+{% endblock %}

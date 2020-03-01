@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+  background-color: #000000;
+  background-image: url("images/dashboard_back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(30%);
+}
+
+h1{}
+.page_head{
+    color:white;
+    text-align:center;
+}
+
+div{}
+.plot_holder{
+    display: inline-block;
+    margin: 0 auto;
+    border: 3px solid green;
+    padding: 10px;
+}
+.multipleplot_holder{
+    width:100%;
+    border: 3px solid red;
+    width: 100%;
+    text-align: center;
+}
+

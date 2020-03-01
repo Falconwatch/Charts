@@ -1,0 +1,13 @@
+{% extends "dashboard/base.html" %}
+
+{% block content %}
+<h1 class="page_head">Риск метрики портфеля</h1>
+
+<div class="multipleplot_holder">
+    <div class="plot_holder">
+         {{ risk_gauge_div |safe }}
+    </div>
+</div>
+
+{{ risk_gauge_script | safe}}
+{% endblock %}
